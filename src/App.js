@@ -16,7 +16,6 @@ class App extends Component {
       '3': {id: '3', text: 'ccc', completed: false},
     },
     todoIds: ['1', '2'],
-    filter: 'all', // all, active, completed
   }
 
   handleCreateTodo = (text) => {
